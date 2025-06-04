@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        p{
+            color: blue;
+        }
+        code{
+           
+            padding:20px;
+            background-color: aliceblue;
+        }
+         #firstP{
+            background-color:gray;
+            color:black;
+        }
+        .secP{
+            background-color: orchid;
+            color: blue;
+        }
+        div > h1{
+            text-align: center;
+            color: gray;
+        }
+        th,td{
+            text-align: center;
+            background-color: rgb(233, 227, 227);
+        }
+    </style>
+</head>
+<body>
+  <h1>Css Selector</h1>
+  <h2>CSS Universal Selector</h2>
+  <code>
+     *{
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+  </code>
+  <h2>CSS Element Selector</h2>
+  <code>
+     p{
+            color: blue;
+        }
+       
+  </code>
+  <p>
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, iure consequuntur. Recusandae saepe numquam esse necessitatibus tempora, et atque ab doloribus labore minus eius, obcaecati quidem quaerat corporis assumenda? Exercitationem.
+  </p>
+
+  <h2>Id Selector</h2>
+  <code>
+     #firstP{
+            background-color:gray;
+            color:black;
+        }
+  </code>
+  <p id="firstP">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, iure consequuntur.
+  </p>
+
+  <h2>Class Selector</h2>
+  <code>
+     .secP{
+            background-color: orchid;
+            color: blue;
+        }
+  </code>
+  <p class="secP">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, iure consequuntur.
+  </p>
+  <h2>Css Descendant Selector</h2>
+  <code>
+     div > h1{
+            text-align: center;
+            color: gray;
+        }
+  </code>
+    <div>
+        <h1>Hello Wolrd</h1>
+    </div>
+    <h2>Group selector</h2>
+    <code>
+          th,td{
+            text-align: center;
+            background-color: rgb(233, 227, 227);
+        }
+    </code>
+     <table border="1" >
+        <tr>
+            <th>FirstName</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>29</td>
+        </tr>
+         <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>29</td>
+        </tr>
+         <tr>
+            <td>Priya</td>
+            <td>Sharma</td>
+            <td>29</td>
+        </tr>
+    </table>
+
+</body>
+</html>
